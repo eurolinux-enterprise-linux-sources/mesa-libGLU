@@ -2,7 +2,7 @@
 
 Name:           mesa-libGLU
 Version:        9.0.0
-Release:        4%{?dist}
+Release:        2%{?dist}
 Summary:        Mesa libGLU library
 
 License:        MIT
@@ -60,12 +60,6 @@ rm -rf $RPM_BUILD_ROOT%{_datadir}/man/man3/gl[A-Z]*
 %{_libdir}/pkgconfig/glu.pc
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 9.0.0-4
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 9.0.0-3
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 9.0.0-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
